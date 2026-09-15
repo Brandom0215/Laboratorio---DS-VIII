@@ -1,0 +1,82 @@
+## =======================================================================
+## Visual Studio / VB.NET / Windows Forms .gitignore
+## =======================================================================
+
+# Visual Studio 2015, 2017, 2019, 2022, 2026+ cache and options
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Carpetas de compilación y salida (Build & Output)
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+[Xx]64/
+[Xx]86/
+[Aa]rm/
+[Aa]rm64/
+build/
+bld/
+
+# Archivos de configuración de usuario específicos de VB / Proyectos
+*.vbproj.user
+*.csproj.user
+*.fsproj.user
+*.sqlproj.user
+*.ndproj.user
+
+# Archivos temporales de compilación y respaldos de VS
+*.pidb
+*.vshost.exe
+*.vshost.exe.manifest
+*.vshost.exe.config
+*.manifest
+Backup*/
+_UpgradeReport_Files/
+UpgradeLog*.XML
+UpgradeLog*.htm
+ServiceConfiguration.*.cscfg
+
+# Archivos de caché y logs de MSBuild / Roslyn
+*.rsuser
+*.cache
+*.FileListAbsolute.txt
+*.incremental
+*.tlog
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+# Archivos de pruebas y cobertura de código
+TestResult*
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Archivos generados por Windows / SO
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Crash dumps y reportes
+*.dmp
+*.crash
+*.dump
+*.log
+*.tmp
+*.temp
